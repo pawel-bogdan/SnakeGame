@@ -1,6 +1,0 @@
-user   0   2,10   medium   medium
-user   7   28,35   medium   medium
-wariat   4   13,20   hard   medium
-wariat   0   2,10   hard   medium
-krzysio misio   6   24,45   medium   medium
-krzysio misio   1   2,80   hard   medium
