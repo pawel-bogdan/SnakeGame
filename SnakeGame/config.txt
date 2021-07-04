@@ -1,0 +1,3 @@
+user name: krzysio misio
+difficulty level: medium
+unit size: medium
