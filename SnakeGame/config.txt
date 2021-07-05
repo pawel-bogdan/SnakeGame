@@ -1,3 +1,0 @@
-user name: User
-difficulty level: medium
-unit size: medium
