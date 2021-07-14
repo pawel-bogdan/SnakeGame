@@ -1,4 +1,0 @@
-User   0   4,05   medium   medium
-User   1   11,70   medium   medium
-User5   9   18,40   hard   medium
-User5   37   101,00   hard   medium
