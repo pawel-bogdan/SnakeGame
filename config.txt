@@ -1,0 +1,3 @@
+user name: pawel
+difficulty level: medium
+unit size: medium
