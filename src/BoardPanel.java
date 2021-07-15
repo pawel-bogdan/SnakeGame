@@ -22,7 +22,6 @@ public class BoardPanel extends JPanel {
     public BoardPanel() {
         super();
         UNIT_SIZE = getUnitSize();
-        System.out.println(UNIT_SIZE);
         ROWS = (GameFrame.FRAME_HEIGHT - StatsPanel.HEIGHT) / UNIT_SIZE;
         COLUMNS = GameFrame.FRAME_WIDTH / UNIT_SIZE;
         this.snake = new Snake();
@@ -104,7 +103,6 @@ public class BoardPanel extends JPanel {
             if (isCollision()) {
                 Game game = new Game(userName, StatsPanel.points, StatsPanel.time, difficultyLevel, unitSize);
                 game.saveGameInHistory();
-                System.out.println("Saved");
                 return;
             }
             updateTime();
