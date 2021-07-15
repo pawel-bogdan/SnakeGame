@@ -75,9 +75,14 @@ public class GUIManager {
         ArrayList<String> topScores = loadScores();
         topScores.sort((o1, o2) -> {
             short indexOfCollectedPointsColumn = 1;
-            Integer score1 = Integer.valueOf(o1.split(" {3}")[indexOfCollectedPointsColumn]);
-            Integer score2 = Integer.valueOf(o2.split(" {3}")[indexOfCollectedPointsColumn]);
-            return score1.compareTo(score2) * -1;
+            try {
+                Integer score1 = Integer.valueOf(o1.split(" {3}")[indexOfCollectedPointsColumn]);
+                Integer score2 = Integer.valueOf(o2.split(" {3}")[indexOfCollectedPointsColumn]);
+                return score1.compareTo(score2) * -1;
+            }
+            catch (ArrayIndexOutOfBoundsException e) {
+                return 0;
+            }
         });
 
         for(int i = 0; i < topScores.size(); i++) {
