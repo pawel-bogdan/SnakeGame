@@ -100,6 +100,14 @@ public class GUIManager {
         String pathToHistoryFile = "history.txt";
         File historyFile = new File(pathToHistoryFile);
         Scanner scanner = null;
+        if(!historyFile.exists()) {
+            try {
+                historyFile.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
         try {
             scanner = new Scanner(historyFile);
         } catch (FileNotFoundException e) {
