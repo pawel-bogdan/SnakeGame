@@ -1,5 +1,5 @@
 # SnakeGame
-todo
+IT IS NOT READY README. It contatins
 
 ## Table of contents
 * [General info](#general-info)
@@ -11,11 +11,6 @@ It is build using technologies such as:
 
 ## Example of use
 
+![snake_game_examples_settings_view](https://user-images.githubusercontent.com/72096306/136389690-eb2e2852-f582-4005-b34e-15327bd33421.png)
 
-
-URL addresses are validated if validation will not be successfull the proper message will be displayed.
-
-![bet_helper_examples_bad_url](https://user-images.githubusercontent.com/72096306/136186744-1e00b786-d8e0-44c0-ab06-bd4832e37dbd.png)
-
-
-
+![snake_game_examples_ingame_view](https://user-images.githubusercontent.com/72096306/136389742-eabbe275-0330-4fc4-b816-9d1f78e6ff11.png)
